@@ -49,8 +49,8 @@ describe('testing alphabet', function(done) {
     //         };
     //     };
 
-    //     expect(fn('-‾zʎxʍʌnʇsɹbdouɯlʞɾıɥƃɟǝpɔqɐzʎxʍʌnʇsɹbdouɯlʞɾıɥƃɟǝpɔqɐ9876543210')).to.throw(Error, 'Custom alphabet for humanid must be 64 unique characters. These characters were not unique: z, ʎ, x, ʍ, ʌ, n, ʇ, s, ɹ, b, d, o, u, ɯ, l, ʞ, ɾ, ı, ɥ, ƃ, ɟ, ǝ, p, ɔ, q, ɐ');
-    //     expect(fn('abc')).to.throw(Error, /Custom alphabet for humanid must be 64 unique characters./);
+    //     expect(fn('-‾zʎxʍʌnʇsɹbdouɯlʞɾıɥƃɟǝpɔqɐzʎxʍʌnʇsɹbdouɯlʞɾıɥƃɟǝpɔqɐ9876543210')).to.throw(Error, 'Custom alphabet for personid must be 64 unique characters. These characters were not unique: z, ʎ, x, ʍ, ʌ, n, ʇ, s, ɹ, b, d, o, u, ɯ, l, ʞ, ɾ, ı, ɥ, ƃ, ɟ, ǝ, p, ɔ, q, ɐ');
+    //     expect(fn('abc')).to.throw(Error, /Custom alphabet for personid must be 64 unique characters./);
 
     //     alphabet.characters('①②③④⑤⑥⑦⑧⑨⑩⑪⑫ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ');
     //     expect(alphabet.shuffled()).to.equal('ⓌⒿⓧⓚ⑧ⓣⓕⓙⓉⓜⓓⒶⓂⒻⓃ①②ⓋⓩⒹⓥⓛⓅ⑨ⓝⓨⓇⓄⒼⓁ⑦ⓟⒾⒺⓤⓔⓀ⑤ⓠⓖⓑⒷⓘ⑥Ⓠ③ⓡⓎⓗⒸ⑫ⓍⓞⓒⓏⓢⓊⓈⓦ⑩Ⓗ④⑪ⓐ');

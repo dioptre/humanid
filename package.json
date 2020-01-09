@@ -1,7 +1,7 @@
 {
-  "name": "humanid",
+  "name": "personid",
   "version": "2.2.15",
-  "description": "Amazingly short non-sequential human-friendly unique id generator.",
+  "description": "Amazingly human-friendly unique id generator.",
   "main": "index.js",
   "scripts": {
     "build": "grunt build",
@@ -10,6 +10,9 @@
   "keywords": [
     "human",
     "humanid",
+    "human-id",
+    "person",
+    "personid",
     "short",
     "tiny",
     "id",
@@ -21,7 +24,7 @@
     "tinyid"
   ],
   "author": "Andrew Grosser <dioptre@gmail.com>",
-  "repository": "dioptre/humanid",
+  "repository": "dioptre/personid",
   "browser": {
     "./lib/random/random-byte.js": "./lib/random/random-byte-browser.js",
     "./lib/util/cluster-worker-id.js": "./lib/util/cluster-worker-id-browser.js"
