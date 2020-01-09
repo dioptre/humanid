@@ -3,7 +3,7 @@
 > Short, but more importantly **human-proof** non-sequential url-friendly unique id generator.
 
 
-PersonId is a clone of ShortId which is a clone of nano-id. The emphasis is different from both of those projects, and is instead human centric. The characters must be easy to type on a phone. Also there can be no confusion with similar keys. The following letters that might be confusing to someone are:
+PersonId is a clone of [ShortID](https://github.com/dylang/shortid#readme) which is a clone of [nano-id](https://github.com/ai/nanoid). The emphasis is different from both of those projects, and is instead human centric. The characters must be easy to type on a phone. Also there can be no confusion with similar keys. The following letters that might be confusing to someone are:
 
 ```
 I -> 1
