@@ -8,13 +8,13 @@ module.exports = function (grunt) {
         browserify: {
             browser: {
                 src: [ require('./package.json').main ],
-                dest: './browser/shortid.js'
+                dest: './browser/humanid.js'
             },
             tests: {
                 src: [
                     './test/**/*.test.js'
                 ],
-                dest: './browser/shortid.test.js'
+                dest: './browser/humanid.test.js'
             }
         },
 

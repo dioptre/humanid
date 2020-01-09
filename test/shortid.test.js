@@ -1,25 +1,25 @@
 'use strict';
 
-var shortid = require('..');
+var humanid = require('..');
 var expect = require('chai').expect;
 
-describe('testing shortid', function(done) {
+describe('testing humanid', function(done) {
 
     beforeEach(function(){
         // reset to default alphabet
-        shortid.seed(1);
-        shortid.characters(false);
+        humanid.seed(1);
+        humanid.characters(false);
     });
 
 
     it('should run a bunch and never get duplicates', function(done) {
-        shortid.seed(1);
+        humanid.seed(1);
         var ids = {};
         var id;
 
         var i=5000;
         while(i--) {
-            id = shortid.generate();
+            id = humanid.generate();
             expect(id.length).to.be.below(17);
             ids[id] = ids[id] ? ids[id]++ : 1;
             expect(ids[id]).to.equal(1);

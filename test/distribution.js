@@ -1,11 +1,11 @@
-var shortid = require('..')
+var humanid = require('..')
 
 var COUNT = 100 * 1000
-var LENGTH = shortid().length
+var LENGTH = humanid().length
 
 var chars = { }
 for (var i = 0; i < COUNT; i++) {
-  var id = shortid()
+  var id = humanid()
   for (var j = 0; j < id.length; j++) {
     var char = id[j]
     if (!chars[char]) chars[char] = 0
